@@ -35,7 +35,7 @@ Think of a tree as a group of domains that share a common root. For example, if 
 - **Forest**: A forest is the top-level container in AD, and it contains one or more trees. So if you have multiple trees (like `example.com` and `anotherdomain.com`), they can exist together in a **forest**. A forest is like a collection of trees that might be connected or separate but belong to the same overall environment.
 - **Sites**: refer to physical locations (like offices in different cities) where your network might exist. Even if a company has one domain (one tree), it might have multiple **sites**. AD uses **sites** to optimize how data is transferred over the network, especially when locations are far apart.
 
-![Images/image.png](image.png)
+![Images/image.png](Images/image.png)
 
 Active Directory Services 
 
@@ -112,7 +112,7 @@ follow this step to  set Ip
 
 Open network setting, You can do this by searching ncpa.cpl or manually navigating into it 
 
-![Images/image.png](image%201.png)
+![Images/image.png](Images/image%201.png)
 
 Now, Select Ethernet —> Properties
 
