@@ -116,15 +116,15 @@ Open network setting, You can do this by searching ncpa.cpl or manually navigati
 
 Now, Select Ethernet —> Properties
 
-![Images/image.png](image%202.png)
+![Images/image.png](Images/image%202.png)
 
 Then click on IPV4 
 
-![Images/image.png](image%203.png)
+![Images/image.png](Images/image%203.png)
 
 Now set the ip addres and then click ok 
 
-![Images/image.png](image%204.png)
+![Images/image.png](Images/image%204.png)
 
 Note: Do not copy mine 
 
@@ -132,25 +132,25 @@ Now we will set up server
 
 Step 1: Open the server manager in windows 2022 AD server 
 
-![Images/image.png](image%205.png)
+![Images/image.png](Images/image%205.png)
 
 Step2 :  In Server Manager, click on **Manage** in the top-right corner and select **Add Roles and Features**.
 
-![Images/image.png](image%206.png)
+![Images/image.png](Images/image%206.png)
 
-![Images/image.png](image%207.png)
+![Images/image.png](Images/image%207.png)
 
 Step 3:In the Wizard that appears, click **Next** until you reach the **Installation Type** section. Select **Role-based or feature-based installation**.
 
-![Images/image.png](image%208.png)
+![Images/image.png](Images/image%208.png)
 
 Step 4: In the next step, select the server from the pool (should be your Windows Server 2022). Click **Next**.
 
-![Images/image.png](image%209.png)
+![Images/image.png](Images/image%209.png)
 
 Step 5: On the **Select server roles** page, check the **Active Directory Domain Services (AD DS)** checkbox.
 
-![Images/image.png](image%2010.png)
+![Images/image.png](Images/image%2010.png)
 
 Continue clicking **Next** through the wizard, leaving defaults as they are, until you reach the **Install** button. Click **Install**.
 
@@ -160,9 +160,9 @@ After the AD DS role installation completes, you will see a notification in the 
 
 Click on this notification and choose **Promote this server to a domain controller**.
 
-![Images/image.png](image%2011.png)
+![Images/image.png](Images/image%2011.png)
 
-![Images/image.png](image%2012.png)
+![Images/image.png](Images/image%2012.png)
 
 Now, Configure Your domain Name
 
@@ -170,13 +170,13 @@ Now, Configure Your domain Name
 
 —In the wizard that opens, choose **Add a new forest** and specify your **Root domain name** (e.g., Baki.local). Click **Next**.
 
-![Images/image.png](image%2013.png)
+![Images/image.png](Images/image%2013.png)
 
 **>>Domain Controller Options**:—On this page, ensure **Domain Name System (DNS) server** and **Global Catalog (GC)** are checked. Enter a **Directory Services Restore Mode (DSRM) password**. This is important for disaster recovery.
 
 —Click **Next**.
 
-![Images/image.png](image%2014.png)
+![Images/image.png](Images/image%2014.png)
 
 **>>DNS Options**:
 
@@ -186,13 +186,13 @@ Now, Configure Your domain Name
 
 - The wizard will automatically generate a NetBIOS name based on your domain name (e.g., `MYDOMAIN`). Accept it and click **Next**.
 
-![Images/image.png](image%2015.png)
+![Images/image.png](Images/image%2015.png)
 
 **>>Paths**:
 
 - Leave the default paths for database, log files, and SYSVOL. Click **Next**.
 
-![Images/image.png](image%2016.png)
+![Images/image.png](Images/image%2016.png)
 
 **>> Review Options**:
 
@@ -212,7 +212,7 @@ step 2 : Open **Server Manager**. Under **Tools**, you will now see additional o
 
 Step 3 :Open **Active Directory Users and Computers** to ensure that your domain is listed.
 
-![Images/image.png](image%2017.png)
+![Images/image.png](Images/image%2017.png)
 
 here you can see an baki.local domain 
 
@@ -228,27 +228,27 @@ Now lets join the client and server
 
 Open Control Panel 
 
-![Images/image.png](image%2018.png)
+![Images/image.png](Images/image%2018.png)
 
 Go to System and Security 
 
-![Images/image.png](image%2019.png)
+![Images/image.png](Images/image%2019.png)
 
 Click on System
 
-![Images/image.png](image%2020.png)
+![Images/image.png](Images/image%2020.png)
 
 Go to Domain or Workgroup 
 
-![Images/image.png](image%2021.png)
+![Images/image.png](Images/image%2021.png)
 
 Click on change and add Domain 
 
-![Images/image.png](image%2022.png)
+![Images/image.png](Images/image%2022.png)
 
 You will ask the credentials and add it 
 
-![Images/image.png](image%2023.png)
+![Images/image.png](Images/image%2023.png)
 
 and then restart the client 
 
@@ -260,31 +260,31 @@ and then restart the client
 
 Go to windows search bar and search user 
 
-![Images/image.png](image%2024.png)
+![Images/image.png](Images/image%2024.png)
 
 Go to view —> Advance Feature 
 
-![Images/image.png](image%2025.png)
+![Images/image.png](Images/image%2025.png)
 
 Go to User by clicking on local admin name 
 
-![Images/image.png](image%2026.png)
+![Images/image.png](Images/image%2026.png)
 
 Now Right click then click New give name and user logon name and set the password 
 
-![Images/image.png](image%2027.png)
+![Images/image.png](Images/image%2027.png)
 
-![Images/image.png](image%2028.png)
+![Images/image.png](Images/image%2028.png)
 
-![Images/image.png](image%2029.png)
+![Images/image.png](Images/image%2029.png)
 
 and then click Finish 
 
-![Images/image.png](image%2030.png)
+![Images/image.png](Images/image%2030.png)
 
 Now, you can see new user in list 
 
-![Images/image.png](image%2031.png)
+![Images/image.png](Images/image%2031.png)
 
 ### How to create a Group in AD
 
@@ -295,24 +295,24 @@ Now, you can see new user in list
 
 This is short to open AD
 
-![Images/image.png](image%2032.png)
+![Images/image.png](Images/image%2032.png)
 
 Right click on view and go to advance view 
 
-![Images/image.png](image%2033.png)
+![Images/image.png](Images/image%2033.png)
 
 **Find Where to Create the Group**:
 
 - In the left pane, select the folder or **Organizational Unit (OU)** where you want the group (e.g., **Users**).
 
-![Images/image.png](image%2033.png)
+![Images/image.png](Images/image%2033.png)
 
 **Create the Group**:
 
 - Right-click the folder or OU.
 - Click **New**, then select **Group**.
 
-![Images/image.png](image%2034.png)
+![Images/image.png](Images/image%2034.png)
 
 **Name and Set Group Options**:
 
@@ -329,21 +329,21 @@ Choose the
 - **Security** (to assign permissions).
 - **Distribution** (for email groups).
 
-![Images/image.png](image%2035.png)
+![Images/image.png](Images/image%2035.png)
 
 - **Finish**:
     - Click **OK** to create the group.
     
-    ![Images/image.png](image%2036.png)
+    ![Images/image.png](Images/image%2036.png)
     
 - **Add Members**:
     - Right-click the group, select **Properties**, go to the **Members** tab, and click **Add** to include users.
 
-![Images/image.png](image%2037.png)
+![Images/image.png](Images/image%2037.png)
 
-![Images/image.png](image%2038.png)
+![Images/image.png](Images/image%2038.png)
 
-![Images/image.png](image%2039.png)
+![Images/image.png](Images/image%2039.png)
 
 ### **ACLs in Administrative Holders:**
 
@@ -386,31 +386,31 @@ Enumeration can be done using built-in Windows tools, third-party software, or s
 
 >>net user
 
-![Images/image.png](image%2040.png)
+![Images/image.png](Images/image%2040.png)
 
 *—>* Domain user info
 
 >>net user /domain
 
-![Images/image.png](image%2041.png)
+![Images/image.png](Images/image%2041.png)
 
 Here you will get list of users in domain in this case you get C01,C02,C03 etc.,
 
 >>net group /domain
 
-![Images/image.png](image%2042.png)
+![Images/image.png](Images/image%2042.png)
 
 You can see all groups in a domain 
 
 >>net user “username” /domain
 
-![Images/image.png](image%2043.png)
+![Images/image.png](Images/image%2043.png)
 
 Replace “username” with the desire user you want and you can see it present in which group 
 
 Note: you can be bypassed by using  Domain (/domai /doma /dom /do ) because there is no other command with these strings, This can be apply in all above cmd 
 
-![Images/image.png](image%2044.png)
+![Images/image.png](Images/image%2044.png)
 
 ### To automate this you can use the tool.
 
@@ -448,31 +448,31 @@ Scripts
 
 Go to windows search bar and search user 
 
-![Images/image.png](image%2024.png)
+![Images/image.png](Images/image%2024.png)
 
 Go to view —> Advance Feature 
 
-![Images/image.png](image%2025.png)
+![Images/image.png](Images/image%2025.png)
 
 Go to User by clicking on local admin name 
 
-![Images/image.png](image%2026.png)
+![Images/image.png](Images/image%2026.png)
 
 Now Right click then click New give name and user logon name and set the password 
 
-![Images/image.png](image%2027.png)
+![Images/image.png](Images/image%2027.png)
 
-![Images/image.png](image%2028.png)
+![Images/image.png](Images/image%2028.png)
 
-![Images/image.png](image%2029.png)
+![Images/image.png](Images/image%2029.png)
 
 and then click Finish 
 
-![Images/image.png](image%2030.png)
+![Images/image.png](Images/image%2030.png)
 
 Now, you can see new user in list 
 
-![Images/image.png](image%2031.png)
+![Images/image.png](Images/image%2031.png)
 
 ### How to create a Group in AD
 
@@ -483,24 +483,24 @@ Now, you can see new user in list
 
 This is short to open AD
 
-![Images/image.png](image%2032.png)
+![Images/image.png](Images/image%2032.png)
 
 Right click on view and go to advance view 
 
-![Images/image.png](image%2033.png)
+![Images/image.png](Images/image%2033.png)
 
 **Find Where to Create the Group**:
 
 - In the left pane, select the folder or **Organizational Unit (OU)** where you want the group (e.g., **Users**).
 
-![Images/image.png](image%2033.png)
+![Images/image.png](Images/image%2033.png)
 
 **Create the Group**:
 
 - Right-click the folder or OU.
 - Click **New**, then select **Group**.
 
-![Images/image.png](image%2034.png)
+![Images/image.png](Images/image%2034.png)
 
 **Name and Set Group Options**:
 
@@ -517,21 +517,21 @@ Choose the
 - **Security** (to assign permissions).
 - **Distribution** (for email groups).
 
-![Images/image.png](image%2035.png)
+![Images/image.png](Images/image%2035.png)
 
 - **Finish**:
     - Click **OK** to create the group.
     
-    ![Images/image.png](image%2036.png)
+    ![Images/image.png](Images/image%2036.png)
     
 - **Add Members**:
     - Right-click the group, select **Properties**, go to the **Members** tab, and click **Add** to include users.
 
-![Images/image.png](image%2037.png)
+![Images/image.png](Images/image%2037.png)
 
-![Images/image.png](image%2038.png)
+![Images/image.png](Images/image%2038.png)
 
-![Images/image.png](image%2039.png)
+![Images/image.png](Images/image%2039.png)
 
 ### **ACLs in Administrative Holders:**
 
@@ -574,31 +574,31 @@ Enumeration can be done using built-in Windows tools, third-party software, or s
 
 >>net user
 
-![Images/image.png](image%2040.png)
+![Images/image.png](Images/image%2040.png)
 
 *—>* Domain user info
 
 >>net user /domain
 
-![Images/image.png](image%2041.png)
+![Images/image.png](Images/image%2041.png)
 
 Here you will get list of users in domain in this case you get C01,C02,C03 etc.,
 
 >>net group /domain
 
-![Images/image.png](image%2042.png)
+![Images/image.png](Images/image%2042.png)
 
 You can see all groups in a domain 
 
 >>net user “username” /domain
 
-![Images/image.png](image%2043.png)
+![Images/image.png](Images/image%2043.png)
 
 Replace “username” with the desire user you want and you can see it present in which group 
 
 Note: you can be bypassed by using  Domain (/domai /doma /dom /do ) because there is no other command with these strings, This can be apply in all above cmd 
 
-![Images/image.png](image%2044.png)
+![Images/image.png](Images/image%2044.png)
 
 ### To automate this you can use the tool.
 
